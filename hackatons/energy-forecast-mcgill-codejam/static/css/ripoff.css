@@ -1,0 +1,151 @@
+@font-face
+{
+    font-family: catull;
+    src: url(../fonts/Catull.ttf);
+}
+h1 {
+    font-size:400%;
+    font-weight:400;
+}
+.boogle{
+	font-family:catull;
+	font-weight:400;
+}
+.B{
+    color:#0047F1;
+}
+.B::-moz-selection{
+    background-color:#0047F1;
+    color:#DD172C;
+}
+.B::-webkit-selection{
+    background-color:#0047F1;
+    color:#DD172C;
+}
+.B::-o-selection{
+    background-color:#0047F1;
+    color:#DD172C;
+}
+.B::-ms-selection{
+    background-color:#0047F1;
+    color:#DD172C;
+}
+.B::selection{
+    background-color:#0047F1;
+    color:#DD172C;
+}
+.o{
+    color:#DD172C;
+}
+.o::-moz-selection{
+    background-color:#DD172C;
+    color:#F9A600;
+}
+.o::-webkit-selection{
+    background-color:#DD172C;
+    color:#F9A600;
+}
+.o::-o-selection{
+    background-color:#DD172C;
+    color:#F9A600;
+}
+.o::-ms-selection{
+    background-color:#DD172C;
+    color:#F9A600;
+}
+.o::selection{
+    background-color:#DD172C;
+    color:#F9A600;
+}
+.o2{
+    color:#F9A600;
+}
+.o2::-moz-selection{
+    background-color:#F9A600;
+    color:#0047F1;
+}
+.o2::-o-selection{
+    background-color:#F9A600;
+    color:#0047F1;
+}
+.o2::-ms-selection{
+    background-color:#F9A600;
+    color:#0047F1;
+}
+.o2::-webkit-selection{
+    background-color:#F9A600;
+    color:#0047F1;
+}
+.o2::selection{
+    background-color:#F9A600;
+    color:#0047F1;
+}
+.g{
+    color:#0047F1;
+}
+.g::-moz-selection{
+    background-color:#0047F1;
+    color:#00930E;
+}
+.g::-o-selection{
+    background-color:#0047F1;
+    color:#00930E;
+}
+.g::-ms-selection{
+    background-color:#0047F1;
+    color:#00930E;
+}
+.g::-webkit-selection{
+    background-color:#0047F1;
+    color:#00930E;
+}
+.g::selection{
+    background-color:#0047F1;
+    color:#00930E;
+}
+.l{
+    color:#00930E;
+}
+.l::-moz-selection{
+    background-color:#00930E;
+    color:#E61B31;
+}
+.l::-o-selection{
+    background-color:#00930E;
+    color:#E61B31;
+}
+.l::-webkit-selection{
+    background-color:#00930E;
+    color:#E61B31;
+}
+.l::-ms-selection{
+    background-color:#00930E;
+    color:#E61B31;
+}
+.l::selection{
+    background-color:#00930E;
+    color:#E61B31;
+}
+.e{
+    color:#E61B31;
+}
+.e::-moz-selection{
+    background-color:#E61B31;
+    color:#0047F1;
+}
+.e::-webkit-selection{
+    background-color:#E61B31;
+    color:#0047F1;
+}
+.e::-o-selection{
+    background-color:#E61B31;
+    color:#0047F1;
+}
+.e::-ms-selection{
+    background-color:#E61B31;
+    color:#0047F1;
+}
+.e::selection{
+    background-color:#E61B31;
+    color:#0047F1;
+}
