@@ -1,17 +1,16 @@
-## INSTRUCTIONS
-## 1. Download the Chrome driver for your chrome version and put it in the same directory as your script.
-## 2. Make sure to have latest Python 3.x installed with pip
-## 3. If you don't have selenium: `pip install selenium`
-## 4. Create a file called credentials.txt with Ikon email on the first line and password on the second.
-## 5. Adjust to the date you desire and frequency of script below.
-## 6. Make sure the resort you want is favorited and is the only favorite.
-## 7. To run the script, either run `python ikon_pass_reservation.py` in CMD or just double click it.
-## 8. You know that it works when it opens a new Chrome window.
-## 9. ???
-## 10. PROFIT!
+# INSTRUCTIONS
+# 1. Follow pre-requisite instructions in README.md
+# 2. Create a file called credentials.txt with Ikon email on the first line and password on the second
+# 3. Adjust to the date you desire and frequency of script below
+# 4. Make sure the resort you want is favorited and is the only favorite
+# 5. To run the script, either run `python ikon_pass_reservation.py` in CMD or just double click it
+# 6. You know that it works when it opens a new Chrome window
+# 7. ???
+# 8. PROFIT!
 
 import time
 import winsound
+import chromedriver_binary  # Adds chromedriver binary to path
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -19,7 +18,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webelement import WebElement
 
-WEB_DRIVER_PATH = 'chromedriver.exe'
 BEEP_DURATION_MS = 10000
 BEEP_FREQUENCY_HZ = 440
 SCRIPT_FREQUENCY_S = 60
@@ -30,7 +28,7 @@ with open('credentials.txt', 'r') as file:
     pw_cred = file.readline().replace('\n', '')
 
 while True:
-    driver = webdriver.Chrome(WEB_DRIVER_PATH)
+    driver = webdriver.Chrome()
     driver.get("https://account.ikonpass.com/en/login?redirect_uri=/en/myaccount/add-reservations/")
 
     email = driver.find_element_by_id("email")
